@@ -18,8 +18,8 @@ Binary classification: predict the probability that an airline passenger is sati
 | + engineered features (rating stats, delay features) | 0.95873 |
 | Regularized LightGBM | 0.95887 |
 | Blend of 4 LightGBM models | 0.95920 |
-| XGBoost | 0.9588949342615711 |
-| Blend of 5 models (final) | 0.9592367106394767 |
+| XGBoost | 0.95890 |
+| Blend of 5 models (final) | 0.95924 |
 
 ## Findings
 - Adding the original dataset and engineered features did not improve CV, so I dropped them rather than keep complexity that didn't pay off.
